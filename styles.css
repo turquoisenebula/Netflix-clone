@@ -155,6 +155,10 @@ nav .icons{
   object-fit: cover;
   border-radius: 1rem;
 }
+.videos:hover{
+    height: 30vh;
+    width: 20vw;
+}
 .more-videos{
     min-height: 100vh;
     width: 100%;
