@@ -9,6 +9,7 @@ html, body {
   height: 100%;
   background-color: #141414;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #fafafa;
 }
 .wrapper{
     width: 100%;
@@ -26,11 +27,13 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* background-color: #00000077; */
     
 }
 nav img{
-    height: 100px;
+    height: 7vh;
     object-fit: cover;
+    margin-left: 1.5vw;
 }
 nav .centerelems{
     display: flex;
@@ -45,7 +48,7 @@ nav .icons{
     gap: 20px;
 }
 .hero{
-    height: 100vh;
+    height: 85vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -53,7 +56,7 @@ nav .icons{
     padding-top: 60px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
     flex-direction: column;
     
 }
@@ -64,7 +67,7 @@ nav .icons{
     border-radius: 30px;
     overflow: hidden;
     position: relative;
-    background-image: url(https://images8.alphacoders.com/900/thumb-1920-900864.jpg);
+    
 }
 .video-container video{
     height: 100%;
@@ -104,7 +107,8 @@ nav .icons{
 }
 .button-group{
     display: flex;
-    gap: 20px;
+    gap: 10px;
+    margin-bottom: 6vh;
 }
 .button-group button{
    padding: 10px 30px;
@@ -120,13 +124,6 @@ nav .icons{
     
 }
 
-.video-section{
-    height: 20vh;
-    width: 100%;
-    color: #fafafa;
-    margin-top: -10%;
-    z-index: 9999;
-}
 .video-section h1{
     margin-bottom: 20px;
     margin-left: 20px;
@@ -135,23 +132,33 @@ nav .icons{
     height: 100%;
     width: 100%;
     display: flex;
-    gap: 10px;
+    gap: 1vw;
     overflow-x: auto;
     scrollbar-width: none;
     align-items: center;
+    /* background-color: pink; */
+    object-fit: cover;
 }
 .videos{
-    height: 80%;
-    width: 300px;
-    background-color: red;
+    height: 90%;
+    width: 20vw;
+    /* background-color: rgb(114, 71, 71); */
     flex-shrink: 0;
-    border-radius: 30px;
-
+    border-radius: 10px;
+    margin-top: 3vh;
+    object-fit: cover;
+    overflow: hidden;
+}
+.videos img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
 }
 .more-videos{
     min-height: 100vh;
     width: 100%;
-    padding-top: 50px;
+    /* padding-top: 50px; */
     padding-left: 20px;
     padding-right: 20px;
 
@@ -160,18 +167,14 @@ nav .icons{
     height: 30vh;
     width: 100%;
     color: #fafafa;
-    margin-bottom: 100px;
+    margin-bottom: 7vh;
     z-index: 9999;
+    margin-left: 1.5vw;
+    margin-bottom: 10vh;
+    /* background-color: blue; */
 }
 .more-video-section h1{
     margin-bottom: 20px;
     margin-left: 20px;
 }
 
-.more-video-section-small{
-    height: 20vh;
-    width: 100%;
-    color: #fafafa;
-    margin-bottom: 100px;
-    z-index: 9999;
-}
